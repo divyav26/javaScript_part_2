@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: relative;
+    color: white;
+    background-image: url(bg.jpg);
+    min-height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    min-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.logo{
+    text-align: right;
+    width: 20%;
+}
+
+.nav{
+    justify-content: space-between;
+    min-height: 10vh;
+    align-items: center;
+    display: flex;
+
+}
+.nav-items{
+    justify-content: space-between;
+    width: 40%;
+    display: flex;
+    list-style-type: none;
+}
+.headline{
+    text-align: center;
+    top: 50%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-50% -50%);
+}
+.btn{
+    outline: none;
+    display: inline block;
+    border: none;
+    cursor: pointer;
+}
+.btn-headline{
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.section-todo{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.bg-dark{
+    background-color: black;
+    color: white;
+}
+
+.form-todo{
+    display: flex;
+    min-height: 5vh;
+    justify-content: space-between;
+}
+
+.todo-list{
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+.todo-list li{
+    background-color: black;
+    color: aqua;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+  
+
+
+.form-todo input{
+    top: 10%;
+    min-height: 100%;
+}
+.form-todo input[type="text"]{
+    font-size: 1rem;
+    padding: 0.8rem;
+    width: 90%;
+    font-weight: 600;
+}
+.form-todo input[type="submit"]
+{
+    width: 10%;
+    color: white;
+    background-color: rgb(44, 55, 63);
+}
+
+.section-signup{
+    margin-top: 5rem;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+.form-sign{
+    width: 95%;
+    max-width: 800px;
+    text-align: left;
+    margin: auto;
+}
+
+.form-group label{
+    display: block;
+}
+
+.form-group input{
+    width: 90%;
+    padding: 0.7rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.form-group textarea{
+    width: 90%;
+    display: block;
+}
+
+.form-group btn{
+    color: white;
+    background-color: black;
+}
+
+.sign-btn{
+    color: white;
+    background-color: black;
+    padding: 1rem auto;
+    margin-top: 1rem;
+    
+}
